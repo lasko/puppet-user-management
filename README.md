@@ -6,3 +6,10 @@ sudo cp site.pp /etc/puppet/manifests/site.pp
 sudo cp -R modules/* /etc/puppet/modules/
 ```
 
+Gather user data
+================
+
+```
+sudo puppet resource user $user
+```
+
